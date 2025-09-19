@@ -1,70 +1,73 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF--8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sewa Alat Camping - Petualangan Outdoor</title>
+    <title>Nature's son</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#produk">Produk</a></li>
-                <li><a href="#promo">Promo</a></li>
-                <li><a href="#kontak">Kontak</a></li>
+    <header class="header">
+        <h1 class="header__title"> Nature' Son Sewa Alat Camping terbaik </h1>
+        <p class="header__subtitle">Jelajahi Alam Bebas dengan Peralatan Terbaik</p>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#produk">Produk</a></li>
+                <li class="nav__item"><a class="nav__link" href="#promo">Promo</a></li>
+                <li class="nav__item"><a class="nav__link" href="#kontak">Kontak</a></li>
             </ul>
         </nav>
-        <h1>Sewa Alat Camping</h1>
-        <p>Jelajahi Alam Bebas dengan Peralatan Terbaik</p>
     </header>
 
     <main>
-        <section>
-            <h2>Nature's Son, Menjadi satu dengan alam dengan alat camping dari kami.</h2>
-            <p>Mulai dari tenda, sleeping bag, hingga alat masak, semua tersedia.</p>
+        <section class="intro">
+            <h2 class="intro__title">Nature's Son menyediakan berbagai kebutuhan camping anda</h2>
+            <p class="intro__text">Mulai dari tenda, sleeping bag, hingga alat masak, semua tersedia dengan kualitas terjamin untuk petualangan Anda.</p>
         </section>
 
-        <section id="produk">
-            <h2>Produk Pilihan Kami</h2>
-            <article>
-                <h3>Tenda Dome</h3>
-                <img src="Assets/" alt="Tenda dome merk Starlight">
-                <p>Tenda untuk 4 orang, mudah dipasang.</p>
-                <p>Harga: Rp 50.000/hari</p>
-            </article>
-            <article>
-                <h3>Sleeping Bag</h3>
-                <img src="Assets/sleepingBag'.png" alt="Tenda dome merk Sleepwell">
-                <p>Hangat dan nyaman untuk malam yang dingin.</p>
-                <p>Harga: Rp 20.000/hari</p>
-            </article>
-            <article>
-                <h3>Kompor Portabel</h3>
-                <img src="Assets/komporPortabel.png" alt="Tenda dome merk Komporinaja">
-                <p>Ringan dan efisien untuk memasak di alam.</p>
-                <p>Harga: Rp 15.000/hari</p>
-            </article>
+        <section id="produk" class="product-showcase">
+            <h2 class="product-showcase__title">Produk Pilihan Kami</h2>
+            <div class="product-showcase__container">
+                <article class="card">
+                    <img class="card__image" src="Assets/dome_bagus.png" alt="Tenda dome merk Starlight">
+                    <h3 class="card__title">Tenda Dome</h3>
+                    <p class="card__description">Tenda untuk 4 orang, tahan air, dan mudah dipasang.</p>
+                    <p class="card__price">Rp 50.000/hari</p>
+                </article>
+                <article class="card">
+                    <img class="card__image" src="Assets/sleepingBag'.png" alt="Sleeping bag merk Sleepwell">
+                    <h3 class="card__title">Sleeping Bag</h3>
+                    <p class="card__description">Hangat dan nyaman untuk malam yang dingin di pegunungan.</p>
+                    <p class="card__price">Rp 20.000/hari</p>
+                </article>
+                <article class="card">
+                    <img class="card__image" src="Assets/komporPortabel.png" alt="Kompor portabel merk Komporinaja">
+                    <h3 class="card__title">Kompor Portabel</h3>
+                    <p class="card__description">Ringan dan efisien untuk memasak di alam bebas.</p>
+                    <p class="card__price">Rp 15.000/hari</p>
+                </article>
+            </div>
         </section>
 
-        <section id="promo">
-            <h2>Promo Khusus Bulan Ini</h2>
-            <p>Dapatkan diskon 10% untuk penyewaan tenda dan sleeping bag.</p>
-            <p>Hubungi kami sekarang!</p>
+        <section id="promo" class="promo-box promo-box--highlight">
+            <h2 class="promo-box__title">Promo Khusus Bulan Ini!</h2>
+            <p class="promo-box__text">Dapatkan diskon 10% untuk penyewaan paket tenda dan sleeping bag selama akhir pekan.</p>
+            <p class="promo-box__cta">Hubungi kami sekarang untuk informasi lebih lanjut!</p>
         </section>
 
-        <aside>
-            <h3>Tips Camping</h3>
-            <p>Selalu periksa cuaca sebelum berangkat. Bawa pakaian yang sesuai dan pastikan menyewa alat dari kami</p>
+        <aside class="tips-box">
+            <h3 class="tips-box__title">Tips Camping Aman</h3>
+            <p class="tips-box__text">Selalu periksa prakiraan cuaca sebelum berangkat. Bawa pakaian yang sesuai, siapkan P3K, dan pastikan Anda menyewa alat dari kami untuk kualitas terbaik.</p>
         </aside>
     </main>
 
-    <footer id="kontak">
-        <address>
+    <footer id="kontak" class="footer">
+        <address class="footer__contact">
             <p>Hubungi Kami: 0812-5664-6640</p>
-            <p>23dzakiii@gmail.com</p>
+            <p>Email: 23dzakiii@gmail.com</p>
         </address>
-        <p>&copy; 2025 Sewa Alat Camping. Semua hak cipta dilindungi.</p>
+        <p class="footer__copyright">&copy; 2025 Sewa Alat Camping. Semua hak cipta dilindungi.</p>
     </footer>
 
 </body>
